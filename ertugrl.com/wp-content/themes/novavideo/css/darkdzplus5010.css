@@ -1,0 +1,464 @@
+/* ================================================================================================
+        Dark Design Plus
+================================================================================================ */
+
+/* ************************************************************************************************
+		General
+************************************************************************************************ */
+.box-shadow {
+    -webkit-box-shadow: 0 0 4px #020202;
+    box-shadow: 0 0 4px #020202;
+}
+
+.box-shadow-inset {
+    -webkit-box-shadow: 0px 0px 2px #000000 inset;
+    box-shadow: 0px 0px 2px #000000 inset;
+}
+
+h1 {
+    border-color: #1F1F1F;
+}
+
+/* ************************************************************************************************
+		Header
+************************************************************************************************ */
+
+/********** Navigation **********/
+#nav {
+    /** Gradient CSS **/
+    background: #1a1a1a; /* Old browsers */
+    background: -moz-linear-gradient(top,  #1a1a1a 0%, #222222 50%, #161616 51%, #111111 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1a1a1a), color-stop(50%,#222222), color-stop(51%,#161616), color-stop(100%,#111111)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #1a1a1a 0%,#222222 50%,#161616 51%,#111111 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #1a1a1a 0%,#222222 50%,#161616 51%,#111111 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #1a1a1a 0%,#222222 50%,#161616 51%,#111111 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #1a1a1a 0%,#222222 50%,#161616 51%,#111111 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a1a1a', endColorstr='#111111',GradientType=0 ); /* IE6-9 */
+    border-color: #181818;
+}
+
+#nav li.current-menu-item a,
+#nav li a:hover {
+    background-image: url(../images/degrade-menu.png);
+    background-repeat: repeat-x;
+    -webkit-box-shadow: 0px 0px 2px #000000 inset;
+    box-shadow: 0px 0px 2px #000000 inset;
+}
+
+#nav li ul.sub-menu {    
+    border-top-color: #151515;    
+}
+
+/********** Carousel **********/
+.bx-wrapper .bx-prev,
+.bx-wrapper .bx-next {
+    background-image: url("../images/controls-plus.png");    
+}
+
+.bx-wrapper .bx-prev:hover {
+    background-position: 0 -32px;
+}
+
+.bx-wrapper .bx-next:hover {
+    background-position: -32px -32px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {    
+    background-image: url("../images/degrade-menu.png");
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+/* ************************************************************************************************
+		Content
+************************************************************************************************ */
+#container {
+    border-color: #181818;
+    box-shadow: 0 0 2px #020202;
+    -webkit-box-shadow: 0 0 2px #020202;
+}
+
+.infobutton {
+    background-image: url("../images/info-icon-plus.png");
+    background-repeat: repeat-x;
+}
+
+.infobutton:hover {
+    background-image: url("../images/info-icon-plus-hover.png");
+    background-repeat: repeat-x;
+}
+
+/* ************************************************************************************************
+		Listing videos
+************************************************************************************************ */
+.listing-tube li,
+.listing-extract li,
+.listing-wall li,
+.listing-cat li {
+    /** Gradient CSS **/      
+    background: #070707; /* Old browsers */
+    background: -moz-linear-gradient(top,  #070707 0%, #161616 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#070707), color-stop(100%,#161616)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #070707 0%,#161616 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #070707 0%,#161616 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #070707 0%,#161616 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #070707 0%,#161616 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#070707', endColorstr='#161616',GradientType=0 ); /* IE6-9 */
+    
+    border-color: #1A1A1A;
+}
+
+img.attachment-thumb_site {
+    position: relative;
+}
+
+.listing-extract li .right {
+    border-left: none;
+    background: url("../images/double-line-vd.png") repeat-y left;
+}
+
+/********** Listing infos **********/
+.listing-infos {
+    border-top: none;
+    background: url("../images/double-line-hd.png") repeat-x top;
+}
+
+.listing-infos .views-infos,
+.listing-infos .time-infos {
+    border-right: none;
+    background: url("../images/double-line-vd.png") repeat-y right;
+}
+
+/* ************************************************************************************************
+		Video content
+************************************************************************************************ */
+
+/********** Title **********/
+#video h1 {
+    border-color: #1C1C1C;
+}
+
+/********** Player **********/
+#video-code {
+    border-color: #1C1C1C;
+}
+
+/********** Video advertising **********/
+#video-ad {
+    border-color: #1C1C1C;
+}
+
+/********** Video infos **********/
+#video-infos {
+    /** Gradient CSS **/
+    background: #181818; /* Old browsers */
+    background: -moz-linear-gradient(top,  #181818 0%, #070707 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#181818), color-stop(100%,#070707)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #181818 0%,#070707 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #181818 0%,#070707 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #181818 0%,#070707 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #181818 0%,#070707 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#181818', endColorstr='#070707',GradientType=0 ); /* IE6-9 */    
+    border-color: #151515 #1C1C1C;
+}
+
+#video-infos .views-infos,
+#video-infos .time-infos {
+    border-right: none;
+    background: url("../images/double-line-vd.png") repeat-y right;
+}
+
+/********** Bottom **********/
+#video-bottom {
+    background: url("../images/double-line-hd.png") repeat-x center top;
+    border-top: none;
+}
+
+/********** Share buttons **********/
+.share-buttons ul li a {
+    background-image: url("../images/degrade.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.share-buttons ul li a:hover {
+    background-image: url("../images/degrade-hover.png");
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+/********** Rating **********/
+.post-like .qtip,
+.post-like a span#more,
+.post-like a span#less {
+    background-image: url("../images/degrade.png");
+    background-repeat: repeat-x;
+    background-position: bottom;    
+}
+
+.post-like .qtip:hover,
+.post-like a:hover span#more,
+.post-like a:hover span#less {
+    background-image: url("../images/degrade-hover.png");
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+.post-like a span.like,
+.post-like a span.dislike {
+    background-color: #131313;
+    border-color: #181818;
+    -webkit-box-shadow: 0 1px 0 #020202;
+    box-shadow: 0 1px 0 #020202;
+}
+
+.note-bar {
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #444;
+    border-left: 1px solid #444;
+}
+
+/********** Categories and tags **********/
+#cat-tag li a {
+    background-color: #131313;
+    background-image: url("../images/degrade.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    border-color: #181818;
+    -webkit-box-shadow: 0 1px 0 #020202;
+    box-shadow: 0 1px 0 #020202;
+}
+
+#cat-tag li a:hover {
+    background-image: url("../images/degrade-hover.png");
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+/********** URL Player button **********/
+a.url-player-button {
+    background-image: url("../images/degrade.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    -webkit-box-shadow: 0 1px 0 #020202;
+    box-shadow: 0 1px 0 #020202;
+}
+
+a.url-player-button:hover {
+    background-image: url("../images/degrade-hover.png");
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+/* ************************************************************************************************
+		Video widgets
+************************************************************************************************ */
+.widget-title {
+    background: url("../images/double-line-hd.png") repeat-x bottom;
+}
+
+#sidebar .sidebar-widget .listing-tube li {
+    -webkit-box-shadow: 0;
+    box-shadow: none;
+    border-color: #111;
+}
+
+/********** All videos link **********/
+.content-widget ul li.all_videos,
+#sidebar .sidebar-widget .listing-tube li.all_videos,
+#footer .footer-widget ul.listing-tube li.all_videos,
+#footer .footer-widget-last ul.listing-tube li.all_videos {
+    background-image: url("../images/degrade.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    -webkit-box-shadow: 0 1px 0 #020202;
+    box-shadow: 0 1px 0 #020202;    
+}
+
+.content-widget ul li.all_videos:hover,
+#sidebar .sidebar-widget .listing-tube li.all_videos:hover,
+#footer .footer-widget ul.listing-tube li.all_videos:hover,
+#footer .footer-widget-last ul.listing-tube li.all_videos:hover {
+    background-image: url("../images/degrade-hover.png");
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+/* ************************************************************************************************
+		Comments
+************************************************************************************************ */
+#comments h3#reply-title {
+    background: url("../images/double-line-hd.png") repeat-x bottom;
+}
+
+.comments-template input,
+.comments-template textarea {
+    background: #1a1a1a;
+    border: 1px solid #222;
+    color: #999;
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.3), 0 0 5px black inset;
+    transition:all 0.3s ease-out 0s;
+}
+.comments-template input:focus,
+.comments-template textarea:focus {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+}
+.comments-template input[type=submit] {
+    background-image: url("../images/degrade.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    -webkit-box-shadow: 0 1px 0 #020202;
+    box-shadow: 0 1px 0 #020202;
+}
+
+.comments-template input:hover[type=submit]{   
+    background-image: url("../images/degrade-hover.png");
+    background-repeat: repeat-x;
+    background-position: top;    
+}
+
+/* ************************************************************************************************
+		Pagination
+************************************************************************************************ */
+.pagination a {
+    background-image: url("../images/degrade.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    -webkit-box-shadow: 0 1px 0 #020202;
+    box-shadow: 0 1px 0 #020202;
+}
+
+.pagination a:hover,
+.pagination span.current {
+    background-image: url("../images/degrade-hover.png");
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+/* ************************************************************************************************
+		Searchform
+************************************************************************************************ */
+#searchform #s {
+    box-shadow: 2px 0 0 rgba(255, 255, 255, 0.3), 0 0 5px black inset;
+    border-color: #181818;    
+}
+
+#searchform #searchsubmit {
+    background-image: url("../images/search-icon-plus.png");
+    -webkit-box-shadow: 0 1px 0 #020202;
+    box-shadow: 0 1px 0 #020202;
+}
+
+#searchform #searchsubmit:hover {
+    background-image: url("../images/search-icon-plus-hover.png");
+}
+
+/* ************************************************************************************************
+		Filters
+************************************************************************************************ */
+.filtre-container span,
+.filtre-list {    
+    border-color: #181818;
+}
+
+/* ************************************************************************************************
+		Template Categories
+************************************************************************************************ */
+ul.listing-cat li span.nb_cat {
+    background-image: url("../images/degrade.png");
+    background-color: #0c0c0c;
+    -webkit-box-shadow: 0 1px 0 #020202;
+    box-shadow: 0 1px 0 #020202;
+    border-color: #181818;
+}
+
+ul.listing-cat li:hover span.nb_cat {
+    background-image: url("../images/degrade-hover.png");    
+}
+
+/* ************************************************************************************************
+		Template Tags
+************************************************************************************************ */
+.wp-tag-cloud li a,
+.tagcloud a {    
+    border-color: #181818;
+    -webkit-box-shadow: 0 1px 0 #020202;
+    box-shadow: 0 1px 0 #020202;
+}
+
+.wp-tag-cloud li a:hover,
+.tagcloud a:hover {
+    background-image: url("../images/degrade-hover.png");    
+}
+
+/* ************************************************************************************************
+		Sidebar
+************************************************************************************************ */
+#sidebar {
+    background-color: #181818;
+    border-color: #1f1f1f;
+    padding: 10px;
+}
+
+#sidebar .widget-title span {
+    background-color: #181818;
+}
+
+#sidebar li.cat-item a,
+.wp-tag-cloud li a,
+.tagcloud a {    
+    border-color: #181818;
+    -webkit-box-shadow: 0 1px 0 #020202;
+    box-shadow: 0 1px 0 #020202;
+}
+
+#sidebar li.cat-item a:hover,
+.wp-tag-cloud li a:hover,
+.tagcloud a:hover {
+    background-image: url("../images/degrade-hover.png");
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+#sidebar #searchform #s {
+    border-color: #222;
+}
+
+/* ************************************************************************************************
+		Footer
+************************************************************************************************ */
+#footer {
+    background-color: #0c0c0c;
+    border-color: #181818;
+    box-shadow: 0 0 2px #020202;
+    -webkit-box-shadow: 0 0 2px #020202;
+}
+
+#footer li.cat-item a {
+    background-image: url("../images/degrade.png");
+    background-color: #0c0c0c;
+    border-color: #181818;
+    -webkit-box-shadow: 0 1px 0 #020202;
+    box-shadow: 0 1px 0 #020202;
+}
+
+#footer li.cat-item a:hover {
+    background-image: url("../images/degrade-hover.png");
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+#footer #footer-copyright {
+    border-top: none;
+    background: url("../images/double-line-hd.png") repeat-x top;
+}
+
+/********** Back to top **********/
+.backtotopinstance {
+    background-image: url("../images/backtotop-plus.png");
+}
+
+.backtotopinstance:hover {
+    background-image: url("../images/backtotop-plus-hover.png");    
+}

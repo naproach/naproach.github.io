@@ -1,0 +1,209 @@
+/* ================================================================================================
+        No sidebar
+================================================================================================ */
+
+/* ************************************************************************************************
+		Content
+************************************************************************************************ */
+#content {
+    width: 1100px;    
+}
+
+/* ************************************************************************************************
+		Listing videos
+************************************************************************************************ */
+
+/********** General **********/
+.listing-tube li,
+.listing-extract li,
+.listing-wall li,
+.listing-cat li {
+    width: 195px;
+    height: 250px;               
+}
+
+.listing-tube li img,
+.listing-wall li img,
+.listing-extract li img,
+.listing-cat li img {
+    width: 195px;  
+    height: 132px;                                       
+}
+
+.listing-tube li a span,
+.listing-extract li a span,
+.listing-wall li a span,
+.listing-cat li a span {    
+    top: 152px;    
+}
+
+.listing-tube li a:hover,
+.listing-extract li a:hover,
+.listing-wall li a:hover,
+.listing-cat li a:hover {
+    background-position: center 50px;
+}
+
+/********** Tube with extract **********/
+.listing-extract li {
+    width: 525px;
+}
+
+.listing-extract li a,
+.listing-extract .listing-infos {
+    width: 39%;
+}
+
+.listing-extract li .right {    
+    width:300px;
+    height:237px;    
+}
+
+.listing-extract li .right p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/********** Wall thumbnails **********/            
+.listing-wall li {
+    height:141px;
+}
+
+/********** Listing categories **********/
+.listing-cat li {
+    height:200px;
+}
+
+/* ************************************************************************************************
+		Video content
+************************************************************************************************ */
+.minheight {
+    min-height: 606px;
+}
+
+#video-infos,
+#video-top {
+    width: 1098px;
+}
+#video-bottom {
+    width: 1078px;
+} 
+
+/* ************************************************************************************************
+		Sidebar
+************************************************************************************************ */
+#sidebar {             
+    display: none;
+}
+
+/* ************************************************************************************************
+		Video Widgets
+************************************************************************************************ */
+
+/********** Home page **********/
+.content-widget {    
+    width: 1100px;    
+}
+
+/* ================================================================================================
+        Mediaqueries
+================================================================================================ */
+
+/* ************************************************************************************************
+		> 1024 resolutions
+************************************************************************************************ */
+@media only screen and (min-width: 960px) and (max-width: 1139px) {
+    
+    /********** Content widget **********/
+    #content,
+    .content-widget {
+        width: 920px;
+    }
+    
+    #content img {
+        max-width: 920px;
+    }
+
+    /********** Listing videos **********/
+    .listing-tube li img,
+    .listing-wall li img,    
+    .listing-extract li img,
+    .listing-cat li img {
+        width: 159px;
+        height: 108px;
+    }
+        
+    .listing-tube li,
+    .listing-extract li,
+    .listing-wall li,
+    .listing-cat li {
+        width: 159px;
+        height: 220px;
+    }
+    
+    .listing-wall li {
+        height: 116px;
+    }
+    
+    .listing-cat li {
+        height: 170px;
+    }
+        
+    .listing-extract li {
+        width: 435px;
+    } 
+    
+    .listing-extract li .right {
+        width: 244px;
+        height: 207px;
+    }
+    
+    .listing-extract li .right p {
+        height: 200px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    
+    .listing-tube li a span,
+    .listing-extract li a span,
+    .listing-wall li a span,
+    .listing-cat li a span {
+        top: 125px;
+    }
+    
+    .listing-tube li a:hover,
+    .listing-extract li a:hover,
+    .listing-wall li a:hover,
+    .listing-cat li a:hover {
+        background-position: center 37px;
+    }
+    
+    /********** Video content **********/
+    .minheight {
+        min-height: 505px;
+    }
+    
+    #video-infos,
+    #video-top {
+        width: 918px;
+    }
+    #video-bottom {
+        width: 898px;
+    }
+     
+    #infos-video-left {
+        width: 550px;
+    }
+    
+    #infos-video-right {
+        width: 200px;
+    }
+    
+    /********** Advertising **********/
+    .content-banner,
+    .content-banner img {
+        max-width: 920px;
+    }
+            
+}
+

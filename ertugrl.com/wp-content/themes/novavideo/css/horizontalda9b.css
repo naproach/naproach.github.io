@@ -1,0 +1,83 @@
+
+/* ================================================================================================
+        Horizontal design
+================================================================================================ */
+
+#container {
+    width: auto;
+    margin: 0 auto; 
+    padding: 20px 0 0 0; 
+    box-shadow: none;
+    -webkit-box-shadow: none;  
+    -webkit-border-top-left-radius: none;
+    -webkit-border-top-right-radius: none;
+    -moz-border-radius-topleft: none;
+    -moz-border-radius-topright: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.bx-wrapper .bx-viewport {
+    width: 96%!important;    
+}
+
+#footer {
+    margin: 0 auto;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+
+/* ================================================================================================
+        Mediaqueries
+================================================================================================ */
+
+/* ************************************************************************************************
+		> 1024 resolutions
+************************************************************************************************ */
+@media only screen and (min-width: 960px) and (max-width: 1139px) {
+    
+    /********** Content **********/
+    #container,
+    #footer {
+        width: auto;
+    }
+
+/* ************************************************************************************************
+		Tablet portrait
+************************************************************************************************ */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    
+    /********** Container **********/
+    #container,
+    #footer {
+        width: auto;
+    }
+    
+}
+
+/* ************************************************************************************************
+		Mobile landscape
+************************************************************************************************ */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    /********** Container **********/
+    #container,
+    #footer {
+        width: auto;
+    }
+    
+}
+
+/* ************************************************************************************************
+		Mobile portrait
+************************************************************************************************ */
+@media only screen and (max-width: 479px) {
+    
+    #container,
+    #footer {
+        width: auto;
+    }
+
+}
+

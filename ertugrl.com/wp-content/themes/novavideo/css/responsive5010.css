@@ -1,0 +1,879 @@
+/* ================================================================================================
+        Mediaqueries
+================================================================================================ */
+
+/* ************************************************************************************************
+		> 1024 resolutions - Tablet landscape
+************************************************************************************************ */
+@media only screen and (min-width: 960px) and (max-width: 1139px) {
+    
+    /********** Header **********/
+    #logo,
+    #logotext {
+        max-width: 430px;        
+    }
+    
+    /********** Content **********/    
+    #center,
+    #header,    
+    #nav,
+    #th-carousel,
+    #footer-content {
+        width: 920px;
+    }    
+    
+    .bx-wrapper .bx-viewport {
+        width: 98%!important;
+    }    
+    
+    #video-infos #video-rate {
+        right: 210px;
+    }
+        
+    .share-buttons ul li a {
+        margin: 0 0 0 10px;
+    }
+    
+    #cat-tag {
+        width: 60%;
+    }    
+    
+    /********** Advertising **********/
+    .header-banner,
+    .header-banner img {
+        max-width: 468px;
+    }    
+   
+    /********** Footer **********/
+    .footer_column {
+        margin: 0 0 30px 0;
+        width: 230px;
+    } 
+    
+    #footer .footer-widget, #footer .footer-widget-last {
+        width: 205px;
+    }    
+       
+    #footer .footer-widget ul.listing-tube li,
+    #footer .footer-widget-last ul.listing-tube li {
+        padding: 3px 3px 0; 
+        margin: 7px 5px 0 2px;       
+        width: 87px;
+        height: 61px;
+    } 
+    
+    #footer .footer-widget ul.listing-tube li img,
+    #footer .footer-widget-last ul.listing-tube li img {
+        width: 87px;
+        height: 58px;
+    }
+    
+    #footer .footer-widget ul.listing-tube li a:hover,
+    #footer .footer-widget-last ul.listing-tube li a:hover {
+        background-position: center 10px;
+    }     
+    
+    #footer #footer-copyright {
+        width:910px;
+    }
+            
+}
+
+/* ************************************************************************************************
+		Tablet portrait
+************************************************************************************************ */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    
+    /********** Container **********/
+    #container {        
+        margin: 0 auto;   
+    }
+    
+    /********** Header **********/
+    #logo,
+    #logo img,
+    #logotext {
+        max-width: 270px;
+        margin-left: 0;        
+    }
+    
+    #header #searchform div {
+        width: 420px;
+    } 
+    
+    #header #searchform #s {
+        width: 357px;
+    }
+    
+    #nav {
+        float: none;
+        background: none;
+        height: 42px;
+    }
+    
+    #nav ul li {
+        display: none;
+    } 
+       
+    #nav .selectnav {
+        display: block;
+    }
+    
+    .bx-wrapper .bx-viewport {
+        width: 97.5%!important;
+    }
+    
+    /********** Content **********/   
+    #center,
+    #header,
+    #nav,
+    #th-carousel,
+    #content,
+    .content-widget,
+    #sidebar,
+    #sidebar .sidebar-widget,
+    .footer_column,
+    #footer-content,
+    #footer .footer-widget,
+    #footer .footer-widget-last {
+        width: 728px;
+    }
+        
+    #content img {
+        max-width: 728px;
+    } 
+    
+    /********** Listing videos **********/
+    .listing-tube li img,    
+    .listing-extract li img,
+    .listing-wall li img,
+    .listing-cat li img,
+    #sidebar .sidebar-widget .listing-tube li img  {
+        width: 157px;
+        height: 107px;
+    }
+    
+    .listing-tube li,
+    .listing-extract li,
+    .listing-wall li,
+    .listing-cat li {
+        width: 157px;
+        height: 225px;
+    }
+    
+    .listing-wall li {
+        height: 116px;
+    } 
+    
+    .listing-extract li {
+        width: 339px;
+    }
+    
+    .listing-extract li .right {
+        width: 149px;
+        height: 212px;
+    }
+    
+    .listing-extract li .right p {
+        height: 200px;        
+    }
+    
+    .listing-cat li {
+        height: 170px;
+    }
+    
+    .listing-tube li a span,
+    .listing-extract li a span,
+    .listing-wall li a span,
+    .listing-cat li a span {
+        top: 128px;
+    }
+    
+    .listing-tube li a:hover,
+    .listing-extract li a:hover,
+    .listing-wall li a:hover,
+    .listing-cat li a:hover {
+        background-position: center 38px;
+    }
+    
+    /********** Video content **********/
+    .minheight {
+        min-height: 397px;
+    }
+    
+    #video-infos,
+    #video-top {
+        width: 726px;
+    }
+    #video-bottom {
+        width: 706px;
+    }
+       
+    
+    /********** Advertising **********/
+    .header-banner,
+    .header-banner img {
+        max-width: 420px;
+    }
+   
+    .content-banner,
+    .content-banner img,
+    .url_player,
+    .url_player img,
+    .footer-banner,
+    .footer-banner img {
+        max-width: 728px;
+    }
+    
+    /********** Sidebar **********/
+    #sidebar .sidebar-widget .listing-tube li {
+        width: 167px;
+        height: 176px;
+        margin: 0 6px 10px;
+    }
+    
+    #sidebar .sidebar-widget .listing-tube li a span {
+        top: 125px;
+    }
+    
+    .sidebar-banner, .sidebar-banner img {
+        max-width: inherit;
+    }
+    
+    /********** Footer ***********/ 
+    .footer_column {
+        padding: 0;
+        margin: 0;
+    }
+    
+    #footer .footer-widget,
+    #footer .footer-widget-last {
+        padding: 0;
+        margin: 0 0 30px;
+    }
+    
+    #footer .footer-widget ul.listing-tube {
+        overflow: hidden;
+        padding: 0 0 50px;
+    }
+    
+    #footer .footer-widget ul.listing-tube li,
+    #footer .footer-widget-last ul.listing-tube li {
+        width: 160px;
+        height: 112px;
+        margin: 7px 8px 0 4px;
+    }  
+      
+    #footer .footer-widget ul.listing-tube li img,
+    #footer .footer-widget-last ul.listing-tube li img {
+        width: 160px;
+        height: 108px;
+    }
+    
+    #footer .footer-widget ul.listing-tube li a:hover,
+    #footer .footer-widget-last ul.listing-tube li a:hover {
+        background-position: center 35px;
+    } 
+    
+    #footer .footer-widget ul.listing-tube li.all_videos,
+    #footer .footer-widget-last ul.listing-tube li.all_videos {
+        bottom: 0;
+    }
+    
+    #footer .footer-widget p.all_videos,
+    #footer .footer-widget-last p.all_videos {
+        bottom: 0;
+        right: 8px;
+    }
+    
+    #footer #footer-copyright {
+        width: 728px;
+    } 
+    
+    .backtotopinstance {
+        right: 10px;
+        bottom: 10px;
+    }
+           
+}
+
+/* ************************************************************************************************
+		Mobile landscape
+************************************************************************************************ */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    /********** Container **********/
+    #container {        
+        margin: 0 auto;
+    }
+
+    /********** Header **********/
+    #header {
+        min-height: 80px;
+    }
+    
+    #header #searchform div {
+        float: none;
+    } 
+      
+    #nav {
+        float: none;
+        background: none; 
+        height: 42px; 
+        margin: 20px auto;         
+    }
+    
+    #nav ul li {
+        display: none;
+    } 
+       
+    #nav .selectnav {
+        display: block;
+    } 
+    
+    .bx-wrapper .bx-viewport {
+        width: 96%!important;
+    }
+    
+    .bx-wrapper .bx-pager {
+        display: none;
+    }
+       
+    #header #searchform #s {
+        width: 377px;
+    } 
+    
+    #logo,
+    #logotext {
+        position: relative;
+        margin: 0 auto 25px;
+        max-width: 440px;
+        text-align: center;
+    }
+    
+    #logo img {
+        max-width: 440px;
+        margin-left: 0;
+        margin-top: 0;
+    }    
+    
+    /********** Content **********/
+    #center,
+    #header,
+    #header #searchform div,
+    #nav,
+    #nav select.selectnav,
+    #th-carousel,
+    #content,
+    .content-widget,
+    #sidebar,
+    #sidebar .sidebar-widget,
+    #footer-content,
+    #footer .footer-widget,
+    #footer .footer-widget-last,
+    #footer .footer-widget ul.listing-tube,
+    #footer .footer-widget-last ul.listing-tube,    
+    #footer #footer-copyright,
+    #footer_columns {
+        width: 440px;
+    }
+        
+    #content img {
+        max-width: 440px;
+    }
+    
+    #content img#shadow_img {
+        position: relative;
+        top: -1px;
+    }
+    
+    /********** Listing videos **********/
+    .listing-tube li img,
+    .listing-extract li img,
+    .listing-wall li img,
+    .listing-cat li img {
+        width: 195px;
+        height: 132px;
+    }
+    
+    .listing-tube li,
+    .listing-extract li,
+    .listing-wall li,
+    .listing-cat li {
+        width: 195px;
+        height: 250px;
+    }
+    
+    .listing-wall li {
+        height: 140px;
+    } 
+    
+    .listing-extract li {
+        width: 417px;
+    }
+    
+    .listing-extract li .right {
+        width: 190px;
+        height: 237px;
+    }
+    
+    .listing-extract li .right p {
+        font-size: 13px;
+    }
+    
+    .listing-cat li {
+        height: 195px;
+    }
+    
+    .listing-tube li a span,
+    .listing-extract li a span,
+    .listing-wall li a span,
+    .listing-cat li a span {
+        top: 152px;
+    }
+    
+    .listing-tube li a:hover,
+    .listing-extract li a:hover,
+    .listing-wall li a:hover,
+    .listing-cat li a:hover {
+        background-position: center 50px;
+    }
+    
+    /********** Video content **********/ 
+    .minheight {
+        min-height: 235px;
+    }
+    
+    #video-infos,
+    #video-top {
+        width: 438px;
+    }
+    #video-bottom {
+        width: 418px;
+    }
+    
+    #video-infos .views-infos,
+    #video-infos .time-infos {
+        width: 16%;
+    }     
+    
+    #video-infos .rating-infos {
+        width: 50%;
+    }
+    
+    #video-infos #video-rate {
+        right: 6px;
+        top: 10px;
+    }
+    
+    .share-buttons ul li a {
+        margin: 0 0 0 10px;
+    }
+    
+    #cat-tag {
+        width: 50%;
+    }
+    
+    #rating-results {
+        margin: 55px 10px 15px 0;
+    }
+    
+    /********** Comments **********/
+    ol.commentlist li {
+        padding: 15px;
+    }    
+    
+    /********** Advertising **********/
+    .header-banner {
+        float: none;            
+    }
+    
+    .header-banner,
+    .header-banner img,
+    .content-banner,
+    .content-banner img,
+    .url_player,
+    .url_player img,
+    .footer-banner,
+    .footer-banner img {
+        max-width: 440px;
+    }
+    
+    /********** Sidebar **********/
+    #sidebar .sidebar-widget .listing-tube li {
+        width: 135px;
+        margin: 0 4px 10px;
+    }
+    
+    .sidebar-banner, .sidebar-banner img {
+        max-width: inherit;
+    }
+    
+    #sidebar .sidebar-widget .listing-tube li img {
+        width: 125px;
+        height: 88px;
+    }    
+    
+    /********** Footer **********/
+    .footer_column {
+        padding: 0;
+        margin: 0;
+    }
+    
+    #footer .footer-widget,
+    #footer .footer-widget-last {
+        padding: 0;
+        margin: 0 0 30px;
+    }
+    
+    #footer .footer-widget ul.listing-tube {
+        overflow: hidden;
+        padding: 0 0 50px;
+    }
+    
+    #footer .footer-widget ul.listing-tube li,
+    #footer .footer-widget-last ul.listing-tube li {
+        width: 195px;
+        height: 140px;
+        padding: 8px 8px 0;
+        margin: 7px 7px 0 0;
+    }
+    
+    #footer .footer-widget ul.listing-tube li img,
+    #footer .footer-widget-last ul.listing-tube li img {
+        width: 195px;
+        height: 132px;
+    } 
+    
+    #footer .footer-widget ul.listing-tube li.all_videos,
+    #footer .footer-widget-last ul.listing-tube li.all_videos {
+        bottom: 0;
+    } 
+    
+    .backtotopinstance {
+        right: 10px;
+        bottom: 10px;
+    }  
+    
+}
+
+/* ************************************************************************************************
+		Mobile portrait
+************************************************************************************************ */
+@media only screen and (max-width: 479px) {
+    
+    /********** General **********/
+    h1 {
+        font-size: 18px;
+    }
+    
+    /********** Header **********/
+    #header {
+        min-height: 66px;
+    } 
+    
+    #header #searchform div {
+        float: none;
+    }
+    
+    #logo,
+    #logotext {
+        position: relative;
+        max-width: 260px;
+        text-align: center;
+        margin: 0 auto 25px;       
+    }
+    
+    #logo img {
+        max-width: 260px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+             
+    #nav {
+        float: none;
+        background: none; 
+        height: 42px; 
+        margin: 20px auto;         
+    }
+    
+    #nav ul li {
+        display:none;
+    } 
+       
+    #nav .selectnav {
+        display:block;
+    } 
+    
+    .bx-wrapper .bx-viewport {
+        width: 93.5%!important;
+    }
+    
+    .bx-wrapper .bx-pager {
+        display: none;
+    }
+       
+    #header #searchform div {
+        width: 260px;
+        clear: both;
+    }
+    
+    #header #searchform #s {
+        width: 197px;
+    }
+    
+    /********** Content **********/    
+    #center,
+    #header,
+    #nav,
+    #nav select.selectnav,
+    #th-carousel,
+    #content,
+    .content-widget,
+    #sidebar,
+    #sidebar .sidebar-widget,
+    #footer-content,
+    #footer .footer-widget,
+    #footer .footer-widget-last,
+    #footer .footer-widget ul.listing-tube,
+    #footer .footer-widget-last ul.listing-tube,    
+    #footer #footer-copyright,
+    #footer_columns {
+        width: 260px;
+    }
+        
+    #content img {
+        max-width: 260px;
+    }
+    
+    #content img#shadow_img {
+        position: relative;
+        top: -5px;
+    }
+    
+    #container {
+        margin: 0 auto;
+    }
+    
+    /********** Listing videos **********/
+    .listing-tube li img,
+    .listing-wall li img,
+    .listing-extract li img,
+    .listing-cat li img,
+    #sidebar .sidebar-widget .listing-tube li img {
+        width: 111px;
+        height: 74px;
+    }
+    
+    .listing-tube li,
+    .listing-extract li,
+    .listing-wall li,
+    .listing-cat li {
+        width: 111px;
+        height: 180px;
+        padding: 5px 5px 0;
+    }
+    
+    .listing-wall li {
+        height: 79px;
+    } 
+    
+    .listing-extract li {
+        width: 242px;
+    }
+    
+    .listing-extract li .right {
+        width: 104px;
+        height: 167px;
+    }
+    
+    .listing-extract li .right p {
+        height: 160px;
+    }
+    
+    .listing-tube li a span,
+    .listing-extract li a span,
+    .listing-wall li a span,
+    .listing-cat li a span {
+        top: 86px;
+    }
+    
+    .listing-tube li a:hover,
+    .listing-extract li a:hover,
+    .listing-wall li a:hover,
+    .listing-cat li a:hover {
+        background-position: center 18px;
+    }
+    
+    .listing-cat li {
+        height: 125px;
+    }
+    
+    .listing-infos {
+        font-size: 10px;
+    }
+    
+    /********** Video content **********/
+    .minheight {
+        min-height: 134px;
+    }
+    
+    #video-infos,
+    #video-top {
+        width: 258px;
+    }
+    
+    #video-bottom {
+        width: 238px;        
+    }    
+    
+    #video-infos .views-infos,
+    #video-infos .time-infos,
+    #video-infos .rating-infos {
+        width: 49%;
+    } 
+    
+    #video-infos #video-rate {
+        left: 33px;
+        top: 90px;
+        width: 180px;
+    }
+    
+    .post-like a span {
+        width: 182px;
+    }
+    
+    #rating-results {
+        margin: 110px 40px 15px 0;
+        width: 185px;
+    }
+    
+    .note-bar {
+        width: 185px;
+    }
+    
+    #rating-results .votes {
+        margin: 15px 0 5px;
+    }
+    
+    .share-buttons {
+        float: none;
+        margin: 0;
+    }
+    
+    #cat-tag {
+        width: 100%;
+        margin: 20px 0 0 0;
+    } 
+    
+    a.url-player-button {
+        font-size: 15px;
+    }    
+    
+    /********** Comments **********/
+    .comments-template textarea {
+        width: 207px;
+    }
+    
+    #comments span#date {
+        float: none;
+    }    
+    
+    /********** Advertising **********/
+    .header-banner,
+    .sidebar-banner,
+    .content-banner,
+    .footer-banner {
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .header-banner img,
+    .sidebar-banner img,
+    .content-banner img,
+    .footer-banner img {
+        max-width: 260px;        
+    }
+    
+    /********** Pagination **********/
+    #pbd-alp-load-posts a {
+        width: 50%;
+    }
+    
+    /********** Filters **********/
+    .filtre-display {
+        float: left;
+        margin: 10px 0;
+    }
+    
+    .filtre-container {
+        width: 90%;
+    }
+    
+    /********** Sidebar **********/
+    #sidebar .sidebar-widget .listing-tube li {
+        width: 120px;
+        height: 140px;
+        margin: 0 4px 10px;
+    }
+    
+    #sidebar .sidebar-widget .listing-tube li a span {
+        top: 90px;
+    }
+    
+    /********** Footer **********/
+    .footer_column {
+        padding: 0;
+        margin: 0;
+    }
+    
+    #footer .footer-widget,
+    #footer .footer-widget-last {
+        padding: 0;
+        margin: 0 0 30px;
+    }
+    
+    #footer .footer-widget ul.listing-tube {
+        overflow: hidden;
+        padding: 0 0 50px;
+    }
+    
+    #footer .footer-widget ul.listing-tube li, #footer .footer-widget-last ul.listing-tube li {
+        width:114px;
+        height:81px;
+        margin:6px 6px 0 0;
+    }
+    #footer .footer-widget ul.listing-tube li img,  #footer .footer-widget-last ul.listing-tube li img {
+        width:114px;
+        height:77px;
+    }
+    #footer #footer-copyright p {
+        line-height:20px;
+    }
+    
+    #footer .footer-widget ul.listing-tube li.all_videos,
+    #footer .footer-widget-last ul.listing-tube li.all_videos {
+        bottom: 0;
+    } 
+    
+    .backtotopinstance {
+        right: 5px;
+        bottom: 5px;
+    } 
+    
+    body .mejs-overlay-button {
+        top: 38%;
+        left: 60%;
+    }
+    
+    body .mejs-overlay-play {
+        height: auto!important;
+    }
+    
+    body .mejs-overlay-button, .vjs-default-skin .vjs-big-play-button {
+        background-image: url("../images/play-player-small.png");
+        width: 46px;
+        height: 46px;
+        margin-top: 45px!important;
+    }    
+}

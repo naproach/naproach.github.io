@@ -1,0 +1,495 @@
+/* ================================================================================================
+        Dark atmosphere
+================================================================================================ */
+
+/* ************************************************************************************************
+		General
+************************************************************************************************ */
+body {
+    background-color: #181818;
+    color: #ccc;
+}
+
+a:hover {
+    color: #fff;
+}
+
+h1 {
+    background-color: #181818; 
+    border-color: #181818;   
+}
+
+.infotext p {
+    background-color: #000;
+    opacity: 0.9;
+}
+
+/* ************************************************************************************************
+		Header
+************************************************************************************************ */
+
+/********** Navigation **********/
+#nav {    
+    background-color: #181818;
+    border-color: #181818;
+}
+
+#nav li {
+    border-right-color: #070707;
+}
+
+#nav li a {
+    color: #eeeeee;
+}
+
+#nav li ul.sub-menu {
+    background-color: #181818;
+    border-left-color: #181818;
+    border-right-color: #181818;    
+}
+
+#nav li ul.sub-menu li a {
+    border-top-color: #070707;
+}
+
+#nav select.selectnav {
+    background-color: #181818;
+    border-color: #070707;
+    color: #ccc;
+}
+
+/********** Carousel **********/
+#th-carousel,
+#th-carousel-horizontal {
+    background-image: url("../images/loading-dark.gif");
+}
+
+.bx-wrapper .bx-viewport {    
+	background-color: #181818;
+    border-color: #181818;
+}
+
+.bx-wrapper .bx-prev:hover,
+.bx-wrapper .bx-next:hover,
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background-color: #333;
+}
+
+.bx-wrapper .bx-caption {
+    background-image: url(../images/px-dark.png);
+    background-repeat: repeat;
+}
+
+.bx-wrapper .bx-caption span {
+    color: #ddd;
+}
+
+/* ************************************************************************************************
+		Content
+************************************************************************************************ */
+#container {
+    background-color: #131313; 
+    border-color: #131313;
+}
+
+.infobutton:hover {
+    background-color: #333;
+    border-color: #333;    
+}
+
+/* ************************************************************************************************
+		Listing videos
+************************************************************************************************ */
+
+/********** General **********/
+.listing-tube li,
+.listing-extract li,
+.listing-wall li,
+.listing-cat li {
+    background-color: #0C0C0C;
+    border-color: #0C0C0C;
+}
+
+.listing-tube li a:hover,
+.listing-extract li a:hover,
+.listing-wall li a:hover,
+.listing-cat li a:hover {
+    color: #fff;   
+}
+
+.listing-extract li .right {
+    border-left-color: #181818;    
+}
+
+.listing-extract li .right p {
+    color:#555;
+}
+
+/********** Video infos **********/
+.listing-infos {
+    border-top-color: #181818;
+}
+
+.listing-infos .views-infos,
+.listing-infos .time-infos {
+    border-right-color: #181818;
+}
+
+.listing-infos .views-infos span,
+.listing-infos .time-infos span,
+.listing-infos .rating-infos span {
+    color: #555;
+}
+
+.listing-infos .views-infos span.views-img {
+    background-image: url("../images/views-dark.png");
+}
+.listing-infos .time-infos span.time-img {
+    background-image: url("../images/time-dark.png");
+}
+.listing-infos .rating-infos span.rating-img {
+    background-image: url("../images/rating-dark.png");
+}
+
+/* ************************************************************************************************
+		Video content
+************************************************************************************************ */
+
+/********** Title **********/
+#video h1 {
+    background: #181818;
+    border-color: #181818;
+}
+
+/************ Player **********/
+#video-code {    
+    background-color: #181818;
+    border-color: #181818;    
+}
+
+.video-load {
+    background-image: url("../images/loading-dark-video.gif");
+}
+
+/********** Video advertising **********/
+#video-ad {
+    background: #181818;
+    border-color: #181818;
+}
+
+/********** Video infos **********/
+#video-infos {
+    background: #181818;
+    border-color: #181818;
+} 
+
+#video-infos .views-infos,
+#video-infos .time-infos,
+#video-infos .rating-infos {
+    border-right-color: #222;
+}
+
+#video-infos .views-infos span,
+#video-infos .time-infos span,
+#video-infos .rating-infos span {
+    color: #555;
+}
+
+#video-infos .views-infos span.views-img {
+    background-image: url("../images/views-dark.png");
+}
+#video-infos .time-infos span.time-img {
+    background-image: url("../images/time-dark.png");
+}
+#video-infos .rating-infos span.rating-img {
+    background-image: url("../images/rating-dark.png");
+}
+
+/********** Bottom **********/
+#video-bottom {
+    border-top: 1px solid #222;
+}
+
+/********** Rating **********/
+.post-like a {
+    color: #ccc;
+}
+
+.post-like a:hover {
+    color: #fff;
+}
+
+.post-like a span.like,
+.post-like a span.dislike {
+    background-color: #222;
+    border-color: #181818;
+}
+
+.post-like a:hover span {
+    background-color: #333;
+}
+
+.note-bar,
+.note-bar.not-rated-yet {
+    background-color: #333;
+}
+
+.like-bar {
+    border-right-color: #222;
+}
+
+#video-synopsys p {
+    color: #555;
+}
+
+/********** Categories and tags **********/
+#cat-tag li a {
+    background-color: #222;
+    color: #ccc;
+    border-color: #222;
+}
+
+/********** Share buttons **********/
+.share-buttons ul li a:hover {
+    background-color: #333;
+    border-color: #333;    
+}
+
+/********** URL Player button **********/
+a.url-player-button:hover {
+    background-color: #333;
+    border-color: #333;
+}
+
+/* ************************************************************************************************
+		Video player
+************************************************************************************************ */
+
+body .mejs-container, .mejs-embed,
+body .mejs-embed body,
+body .mejs-controls .mejs-time-rail .mejs-time-loaded {
+    background: #000;
+}
+
+body .mejs-container .mejs-controls {
+    background: #111;
+}
+
+/********** The default control bar **********/
+.vjs-default-skin .vjs-control-bar {
+    color: #fff; border-top: 1px solid #404040;    
+    background: #222; 
+}
+
+/********** Progress **********/
+.vjs-default-skin div.vjs-progress-control {
+    border-bottom: 1px solid #1F1F1F;
+    border-top: 1px solid #222; 
+    background: #333;
+    background: -moz-linear-gradient(top, #222, #333);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#222), to(#333));
+    background: -webkit-linear-gradient(top, #222, #333);
+    background: -o-linear-gradient(top, #222, #333);
+    background: -ms-linear-gradient(top, #222, #333);
+    background: linear-gradient(top, #222, #333);
+}
+
+/********** Box containing play and load progresses **********/
+.vjs-default-skin .vjs-progress-holder {    
+    background: #111;
+    background: -moz-linear-gradient(top, #111, #262626);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#111), to(#262626));
+    background: -webkit-linear-gradient(top, #111, #262626);
+    background: -o-linear-gradient(top, #111, #262626);
+    background: -ms-linear-gradient(top, #111, #262626);
+    background: linear-gradient(top, #111, #262626);
+}
+
+/* ************************************************************************************************
+		Video widgets
+************************************************************************************************ */
+.widget-title span {    
+    color: #ccc;
+}
+
+/********** All videos link **********/
+#sidebar ul.listing-tube li {
+    background-color: #0C0C0C;  
+}
+
+.content-widget ul li.all_videos:hover,
+#sidebar .sidebar-widget .listing-tube li.all_videos:hover,
+#footer .footer-widget ul.listing-tube li.all_videos:hover,
+#footer .footer-widget-last ul.listing-tube li.all_videos:hover {
+    background-color: #333;
+    border-color: #333;    
+}
+
+/* ************************************************************************************************
+		Comments
+************************************************************************************************ */
+#comments li {
+    background: #181818;
+    border-bottom-color: #252525
+}
+
+#comments .avatar img {
+    border-color: #222;
+}
+
+#comments p {
+    color: #555;
+}
+
+.comments-template input,
+.comments-template textarea {
+    background-color: #222; 
+    border-color: #222;
+    color: #ccc;
+}
+.comments-template input:focus,
+.comments-template textarea:focus {
+    background-color: #333;    
+}
+
+.comments-template input[type="submit"]:hover {
+    background-color: #333;
+    border-color: #333;    
+}
+
+/* ************************************************************************************************
+		Pagination
+************************************************************************************************ */
+.pagination a,
+.pagination span {
+    background-color: #111;
+    color: #eee;
+}
+
+.pagination a:hover,
+.pagination span.current {
+    background-color: #333;
+    border-color: #333;    
+}
+
+/* ************************************************************************************************
+		Searchform
+************************************************************************************************ */
+#searchform #s {  
+    background-color: #0C0C0C;
+    border-color: #0C0C0C;
+    color: #999;    
+}
+
+#searchform #s:focus {
+    background-color: #181818;   
+}
+
+#searchform #searchsubmit:hover {
+    background-color: #333;
+    border-color: #333;    
+}
+
+/* ************************************************************************************************
+		Filters
+************************************************************************************************ */
+.filtre-container span,
+.filtre-list {
+    background-color: #0C0C0C;
+    border-color: #0C0C0C;
+}
+
+.filtre-list {
+    border-color: #0C0C0C;
+}
+
+.filtre-list a {
+    color: #eee;
+}
+
+.filtre-display ul li a#tube {
+    background-image: url("../images/tube-light-selected.png");
+    background-repeat: no-repeat;
+}
+
+.filtre-display ul li a#tube-extract {
+    background-image: url("../images/tube-extract-light-selected.png");
+    background-repeat: no-repeat;
+}
+
+.filtre-display ul li a#wall {
+    background-image: url("../images/wall-light-selected.png");
+    background-repeat: no-repeat;
+}
+
+.filtre-display ul li.selected a#tube {
+    background-image: url("../images/tube-dark-selected.png");
+}
+
+.filtre-display ul li.selected a#tube-extract {
+    background-image: url("../images/tube-extract-dark-selected.png");
+}
+
+.filtre-display ul li.selected a#wall {
+    background-image: url("../images/wall-dark-selected.png");
+}
+
+/* ************************************************************************************************
+		Template Categories
+************************************************************************************************ */
+ul.listing-cat li span.nb_cat {
+    background-color: #222;
+    border-color: #222;
+}
+
+/* ************************************************************************************************
+		Template Tags
+************************************************************************************************ */
+.wp-tag-cloud li a,
+.tagcloud a {
+    background-color: #222;
+    color: #ccc;
+    border-color: #222;
+}
+
+/* ************************************************************************************************
+		Sidebar
+************************************************************************************************ */
+#sidebar {
+    border-color: #131313;
+}
+
+#sidebar li.cat-item a {
+    color: #ccc;
+    background-color: #222;
+    border-color: #222;    
+}
+
+/* ************************************************************************************************
+		Footer
+************************************************************************************************ */
+#footer {
+    background-color: #0C0C0C;
+    border-color: #0C0C0C;    
+}
+
+#footer .widget-title span {
+    background: #0C0C0C;
+}
+
+#footer li.cat-item a {
+    color: #ccc;
+    background-color: #222;
+    border-color: #222;    
+}
+
+#footer #footer-copyright {
+    color: #777;
+    border-top-color: #222;    
+}
+
+/********** Back to top **********/
+.backtotopinstance:hover {    
+    background-color: #333;
+    border-color: #333;
+}
